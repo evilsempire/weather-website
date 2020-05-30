@@ -21,7 +21,7 @@ weatherFarm.addEventListener('submit', (e) => {
 
 
 const searchResult = (location) => {
-    return fetch(`http://localhost:3000/weather?address=${location}`).then(response => {
+    return fetch(`/weather?address=${location}`).then(response => {
         return response.json().then(json => {
             return json
         })
