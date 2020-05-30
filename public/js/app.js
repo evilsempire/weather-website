@@ -1,5 +1,3 @@
-console.log(`Javascript loaded`);
-
 const weatherFarm = document.querySelector('form');
 const search = document.querySelector('input');
 const messageOne = document.querySelector('#message-1');
